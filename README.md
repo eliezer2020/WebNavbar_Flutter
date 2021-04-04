@@ -1,6 +1,6 @@
 # web_navbar
 
-A new Flutter package project for a responsive web navbar.
+package project for a responsive web navbar. updated for flutter 2
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ appBar: WebNavbar(
         ),
       ),
 ```
-     
+important: for flutter 2 use TextButton intead.     
 btn represent FlatButtons, so myButtons is a List<FlatButton>
   
 ![alt text](https://github.com/eliezer2020/WebNavbar_Flutter/blob/main/webnavmar.png "Logo ")

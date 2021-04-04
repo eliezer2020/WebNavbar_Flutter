@@ -1,6 +1,7 @@
 # web_navbar
 
 package project for a responsive web navbar. updated for flutter 2
+for flutter 1.x used package version 2
 
 ## Getting Started
 

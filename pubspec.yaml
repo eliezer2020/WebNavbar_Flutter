@@ -1,12 +1,12 @@
 name: web_navbar
-description: A new Flutter package project.
-version: 0.0.2
+description: build a responsive webnavar updated for flutter 2!
+version: 0.0.3
 
 homepage: https://github.com/eliezer2020/WebNavbar_Flutter.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0 <2.0.0"
+  flutter: ">=1.17.0 <2.12.2"
 
 dependencies:
   flutter:

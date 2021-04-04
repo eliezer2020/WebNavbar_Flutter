@@ -6,7 +6,7 @@ homepage: https://github.com/eliezer2020/WebNavbar_Flutter.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0 <2.12.2"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:

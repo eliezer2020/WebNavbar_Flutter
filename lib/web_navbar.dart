@@ -2,7 +2,7 @@ library web_navbar;
 
 /// A Responsive web Navbar
 /// YouTube: Gerson Morales Life
-/// www.gersonmorales.com
+/// udemy: flutter web aplicaciones web responsivas y firebase cloud
 import 'package:flutter/material.dart';
 
 const kDesktopBreakpoint = 1024.0;
@@ -10,7 +10,7 @@ bool fullScreen;
 
 //follow me on my Youtube channel: Gerson Morales Life
 class WebNavbar extends StatelessWidget with PreferredSizeWidget {
-  final List<FlatButton> myButtons;
+  final List<TextButton> myButtons;
   final pathImage;
   final Text textNavbar;
   final Color hamburgerColor;
@@ -41,6 +41,7 @@ class WebNavbar extends StatelessWidget with PreferredSizeWidget {
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
+                  //path to your image asset
                   Image.asset(pathImage),
                   textNavbar,
                   Row(
@@ -81,7 +82,7 @@ class WebNavbar extends StatelessWidget with PreferredSizeWidget {
                           onPressed: () {
                             showDialog(
                               context: context,
-                              child: SimpleDialog(
+                              builder: (context) => SimpleDialog(
                                 title: IconButton(
                                   onPressed: () {
                                     Navigator.of(context).pop();
